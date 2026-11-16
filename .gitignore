@@ -1,0 +1,14 @@
+# Arquivos internos do Workspace do Eclipse
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+
+# Pastas de arquivos compilados e configurações locais de projeto
+bin/
+.settings/
+.classpath
+.project
+
+# Arquivos do Windows
+Thumbs.db
+Desktop.ini
