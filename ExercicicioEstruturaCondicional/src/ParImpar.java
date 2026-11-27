@@ -6,21 +6,15 @@ public class ParImpar {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		double num;
+		System.out.print("Insira qualquer numero inteiro: ");
+		int num = sc.nextInt();
 		
-		System.out.println("Insira qualquer numero: ");
-		num = sc.nextDouble();
-		
-		num = num % 2;
-		
-		if (num == 0) {
-			System.out.printf("%.2f é Par", num);
+		if (num % 2 == 0) {
+			System.out.println(num + " é Par");
 		} else {
-			System.out.printf("%.2f é Impar", num);
+			System.out.println(num + " é Impar");
 		}
 		
 		sc.close();
 	}
-	
-	
 }
